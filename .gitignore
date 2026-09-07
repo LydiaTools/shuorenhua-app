@@ -1,0 +1,25 @@
+.DS_Store
+
+# Swift 与 Xcode 生成物
+.build/
+.swiftpm/
+DerivedData/
+*.xcarchive
+*.xcuserstate
+
+# 本地构建、历史安装包和产品截图
+/build/
+/dist/
+/legacy-builds/
+/qa/
+/publish-*/
+
+# 本地环境、凭据和签名材料
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.provisionprofile
